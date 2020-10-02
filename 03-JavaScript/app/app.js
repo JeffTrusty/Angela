@@ -48,4 +48,10 @@ function fibonacciGenerator(n) {
   return returnArray;
 }
 */
+var x = 3 + 4;
+
+x++;
+
+console.log(x);
+
 
