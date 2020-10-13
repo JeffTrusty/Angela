@@ -48,10 +48,36 @@ function fibonacciGenerator(n) {
   return returnArray;
 }
 */
-var x = 3 + 4;
+for (var i = 0; i < document.querySelectorAll(".drum").length; i++) {
+    document
+      .querySelectorAll('.drum')
+      [i].addEventListener('click', function () {
+        // alert('I got clicked');
+        var audio = new Audio("sounds/tom-1.mp3");
+        audio.play();
+      });
+  }
 
-x++;
+/*
+function add(num1, num2) {
+  return num1 + num2;
+}
 
-console.log(x);
+function subtract(num1, num2) {
+  return num1 - num2;
+}
 
+function multiply(num1, num2) {
+  return num1 * num2;
+}
 
+function divide(num1, num2) {
+  return num1 / num2;
+}
+
+// use the name of the operator function name when calling. IE calculator(num1, num2, add);
+function calculator(num1, num2, operator) {
+  return operator(num1, num2);
+}
+
+*/
