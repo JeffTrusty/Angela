@@ -1,0 +1,25 @@
+{
+  "name": "angela",
+  "version": "1.0.0",
+  "description": "Angela Learning JS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JeffTrusty/Angela.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JeffTrusty/Angela/issues"
+  },
+  "homepage": "https://github.com/JeffTrusty/Angela#readme",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.6.1",
+    "@typescript-eslint/parser": "^4.6.1",
+    "eslint": "^7.12.1",
+    "eslint-config-google": "^0.14.0"
+  }
+}
